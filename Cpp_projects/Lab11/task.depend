@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1730692548 source:d:\jobs\02 - lab instructor\codeblocks\cse225l\lab-11\task\queuetype.cpp
+	"queuetype.h"
+	<iostream>
+
+1730690892 d:\jobs\02 - lab instructor\codeblocks\cse225l\lab-11\task\queuetype.h
+
+1731170434 source:d:\jobs\02 - lab instructor\codeblocks\cse225l\lab-11\task\main.cpp
+	<iostream>
+	"queuetype.cpp"
+
+1730692548 d:\jobs\02 - lab instructor\codeblocks\cse225l\lab-11\task\queuetype.cpp
+	"queuetype.h"
+	<iostream>
+

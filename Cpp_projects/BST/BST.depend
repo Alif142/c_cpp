@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1744989444 source:/home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/BST/bst.cpp
+	"bst.h"
+	"queuetype.cpp"
+	<iostream>
+
+1744987903 /home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/BST/bst.h
+	"queuetype.h"
+
+1744987831 /home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/BST/queuetype.h
+
+1744989429 /home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/BST/queuetype.cpp
+	"queuetype.h"
+	<iostream>
+
+1744989429 source:/home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/BST/queuetype.cpp
+	"queuetype.h"
+	<iostream>
+

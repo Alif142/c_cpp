@@ -1,0 +1,122 @@
+problem2
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+typedef struct {
+    char name[50];
+    int id;
+    char dept[20];
+    double cgpa;
+} student;
+
+// Function to save students of a specific department to a file
+void saveByDept(char *fileName, char *deptName, student allStudents[], int size) {
+    FILE *file = fopen(fileName, "w");
+    if (file == NULL) {
+        printf("Error opening file for writing!\n");
+        return;
+    }
+
+    for (int i = 0; i < size; i++) {
+        if (strcmp(allStudents[i].dept, deptName) == 0) {
+            fprintf(file, "%s %d %s %.2f\n", 
+                   allStudents[i].name, 
+                   allStudents[i].id, 
+                   allStudents[i].dept, 
+                   allStudents[i].cgpa);
+        }
+    }
+
+    fclose(file);
+}
+
+// Function to delete students with CGPA >= 3.0 from the file
+void deleteHighCGPA(char *fileName, char *deptName) {
+    // Temporary file to store filtered students
+    FILE *tempFile = fopen("temp.txt", "w");
+    FILE *originalFile = fopen(fileName, "r");
+    
+    if (tempFile == NULL || originalFile == NULL) {
+        printf("Error opening files!\n");
+        return;
+    }
+
+    char name[50];
+    int id;
+    char dept[20];
+    double cgpa;
+
+    while (fscanf(originalFile, "%s %d %s %lf", name, &id, dept, &cgpa) != EOF) {
+        // Only write to temp file if CGPA < 3 or not from the specified department
+        if (cgpa < 3.0 || strcmp(dept, deptName) != 0) {
+            fprintf(tempFile, "%s %d %s %.2f\n", name, id, dept, cgpa);
+        }
+    }
+
+    fclose(originalFile);
+    fclose(tempFile);
+
+    // Replace original file with the filtered file
+    remove(fileName);
+    rename("temp.txt", fileName);
+}
+
+// Example usage
+int main() {
+    student students[] = {
+        {"Alice", 101, "CSE", 3.5},
+        {"Bob", 102, "EEE", 2.8},
+        {"Charlie", 103, "CSE", 3.2},
+        {"David", 104, "CSE", 2.5},
+        {"Eve", 105, "EEE", 3.8}
+    };
+    int size = sizeof(students) / sizeof(students[0]);
+
+    // Save all CSE students to file
+    saveByDept("cse_students.txt", "CSE", students, size);
+
+    // Delete CSE students with CGPA >= 3.0 from the file
+    deleteHighCGPA("cse_students.txt", "CSE");
+
+    return 0;
+
+}
+
+Problem3
+#include <stdio.h>
+
+int sumWithRecursion(int current, int end) {
+    if (current > end) {
+        return 0;
+    }
+    return current + sumWithRecursion(current + 5, end);
+}
+
+int main() {
+    int result = sumWithRecursion(1, 101);
+    printf("Sum using recursion: %d\n", result);
+    return 0;
+}
+
+
+#include <stdio.h>
+
+// Recursive function to calculate T(n)
+int T(int n) {
+    // Base cases
+    if (n == 1) return 3;
+    if (n == 2) return 5;
+    
+    // Recursive case
+    return T(n-1) + 2 * T(n-2);
+}
+
+int main() {
+    // Calculate and print T(5) to T(10)
+    for (int i = 5; i <= 10; i++) {
+        printf("T(%d) = %d\n", i, T(i));
+    }
+    
+    return 0;
+}

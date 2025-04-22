@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1744810105 source:/home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/Lab9/main.cpp
+	<iostream>
+	"QueueType.cpp"
+	"QueueType.h"
+
+1744794304 /home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/Lab9/QueueType.cpp
+	"QueueType.h"
+	<iostream>
+
+1744791159 /home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/Lab9/QueueType.h
+
+1744794304 source:/home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/Lab9/QueueType.cpp
+	"QueueType.h"
+	<iostream>
+

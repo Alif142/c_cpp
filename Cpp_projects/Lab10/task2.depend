@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1731241954 source:d:\jobs\02 - lab instructor\codeblocks\cse225l\lab-10\task2\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
+1731241946 d:\jobs\02 - lab instructor\codeblocks\cse225l\lab-10\task2\stacktype.h
+
+1731245885 source:d:\jobs\02 - lab instructor\codeblocks\cse225l\lab-10\task2\main.cpp
+	<iostream>
+	"stacktype.cpp"
+
+1731241954 d:\jobs\02 - lab instructor\codeblocks\cse225l\lab-10\task2\stacktype.cpp
+	<iostream>
+	"stacktype.h"
+
