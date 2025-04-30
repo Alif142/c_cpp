@@ -1,5 +1,6 @@
 #include "employee.h"
 Employee::Employee(){};
+
 Employee::Employee(int id, string name, double salary)
 {
     this->id = id;
