@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1744958902 source:/home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/EmployeeManagementSystem/sortedtype.cpp
+	<iostream>
+	"sortedtype.h"
+
+1744958881 /home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/EmployeeManagementSystem/sortedtype.h
+
+1744959189 source:/home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/EmployeeManagementSystem/main.cpp
+	<iostream>
+	"employee.h"
+	"sortedtype.cpp"
+
+1744959287 /home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/EmployeeManagementSystem/employee.h
+	<string>
+	<iostream>
+
+1744958902 /home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/EmployeeManagementSystem/sortedtype.cpp
+	<iostream>
+	"sortedtype.h"
+
+1744959324 source:/home/alif/myProgramingFiles/learning_C_Concepts/Cpp_projects/EmployeeManagementSystem/employee.cpp
+	"employee.h"
+

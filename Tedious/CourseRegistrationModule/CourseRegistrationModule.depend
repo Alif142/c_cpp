@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1745986360 source:/home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/course.cpp
+	"course.h"
+
+1745986360 /home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/course.h
+	<string>
+
+1745986360 source:/home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/functions.cpp
+	<iostream>
+	<string>
+	"functions.h"
+	"unsortedtype.h"
+
+1745986360 /home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/functions.h
+	"course.h"
+	"student.h"
+
+1745986360 /home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/student.h
+	<string>
+	"unsortedtype.h"
+	"course.h"
+
+1745986377 /home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/unsortedtype.h
+
+1745986360 source:/home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/main.cpp
+	<iostream>
+	"functions.h"
+
+1745986360 source:/home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/student.cpp
+	"student.h"
+
+1745983997 source:/home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/unsortedtype.cpp
+	"unsortedtype.h"
+	<iostream>
+
+1745983997 /home/alif/work/c_cpp/Cpp_projects/CourseRegistrationModule/unsortedtype.cpp
+	"unsortedtype.h"
+	<iostream>
+
+1745990601 source:/home/alif/work/c_cpp/Tedious/CourseRegistrationModule/course.cpp
+	"course.h"
+
+1745993749 /home/alif/work/c_cpp/Tedious/CourseRegistrationModule/course.h
+	<string>
+
+1745986360 source:/home/alif/work/c_cpp/Tedious/CourseRegistrationModule/functions.cpp
+	<iostream>
+	<string>
+	"functions.h"
+	"unsortedtype.h"
+
+1745986360 /home/alif/work/c_cpp/Tedious/CourseRegistrationModule/functions.h
+	"course.h"
+	"student.h"
+
+1745994635 /home/alif/work/c_cpp/Tedious/CourseRegistrationModule/student.h
+	<string>
+	"unsortedtype.cpp"
+	"course.h"
+
+1745994526 /home/alif/work/c_cpp/Tedious/CourseRegistrationModule/unsortedtype.h
+
+1745986360 source:/home/alif/work/c_cpp/Tedious/CourseRegistrationModule/main.cpp
+	<iostream>
+	"functions.h"
+
+1745986360 source:/home/alif/work/c_cpp/Tedious/CourseRegistrationModule/student.cpp
+	"student.h"
+
+1745994622 /home/alif/work/c_cpp/Tedious/CourseRegistrationModule/unsortedtype.cpp
+	"unsortedtype.h"
+	<iostream>
+
